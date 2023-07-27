@@ -19,6 +19,7 @@ pipeline {
                     sh "docker build -t ${env.JOB_NAME} ."
                 }
             }
+            
         //     stage("Pushing to ECR") {
         //         steps {
 
